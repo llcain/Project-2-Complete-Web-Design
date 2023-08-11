@@ -31,9 +31,18 @@ header .container {
     justify-content: space-between;
 }
 
-header .logo {
-    
+header .logo {    
     display: inline-block;
+    font-size: 27px;
+}
+
+header .logo .blue-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: #3e50e5;
 }
 
 header nav {    
