@@ -154,11 +154,14 @@ section.best-seller hr {
 
 /* best seller slider */
 
-
+section.best-seller .product-slider {
+    margin-top: 76px;
+}
 
 section.best-seller .container {
     display: flex;
     justify-content: space-around;
+    padding: 0 8px;
 }
 
 section.best-seller .product-slider .product {
@@ -166,6 +169,12 @@ section.best-seller .product-slider .product {
     border: 1px solid #DDD;
     width: 33%;
     text-align: center;
+    margin: 0 16px;
+    padding: 40px;
+}
+
+section.best-seller .product-slider .product .product-info {
+    margin-top: 50px;
 }
 
 .product-picture img {
