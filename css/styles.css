@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
+    padding-top: 80px;
 }
 
 .container {
@@ -63,4 +64,9 @@ header nav ul li a {
 
 header nav ul li:last-of-type a {
     margin-right: 0;
+}
+
+section.hero img {
+    width: 100%;
+    height: auto;
 }
